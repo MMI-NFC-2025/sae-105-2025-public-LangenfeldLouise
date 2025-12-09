@@ -1,0 +1,15 @@
+:root {
+    /*Couleurs*/
+    --light: #FFFFFF;
+    --darkBlue: #000424;
+    --violetBlue: #3B3BFC;
+    --blueGray: #B2B3BD;
+
+    /*Polices de caractère*/
+    --font-sans-sc: "Alumni Sans SC", sans-serif;
+    --font-sans: "Alumni Sans", sans-serif;
+    --font-arial: "Arial", sans-serif;
+
+    /*Tailles de texte*/
+    --text-6xl: 3.75rem; /* 60px */
+}
