@@ -11,5 +11,15 @@
     --font-arial: "Arial", sans-serif;
 
     /*Tailles de texte*/
-    --text-6xl: 3.75rem; /* 60px */
+    --text-sm: 0.875rem; /*14px*/
+    --text-lg: 1.125rem; /*18px*/
+    --text-xl: 1.25rem;  /*20px*/
+    --text-2xl: 1.5rem;  /*24px*/
+    --text-4xl: 2.25rem; /*36px*/
+    --text-6xl: 3.75rem; /*60px*/
+
+    /*Espaces*/
+    --space-lg: 0.75rem;/*12px*/
+    --space-xl: 1rem;   /*16px*/
+    --space-4xl: 2rem;  /*32px*/
 }
