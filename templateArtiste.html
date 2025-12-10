@@ -7,6 +7,11 @@
 
         <title>Jumelages</title>
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet">
         <link rel="icones" type="image/png" href="/assets/icones/favicon/favicon-96x96.png" sizes="96*96" />
         <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
         <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
@@ -53,33 +58,31 @@
                 arrangements Soul / Pop.
             </p>
             <p class="img"><img src="/assets/images/grande/discover grande.avif" alt="Photo de profil du groupe Dis'cover"></p>
-            
-            <section class="section section--wrapper section--scene section--blue">
-                <div class="carousel" aria-label="scene">
+            <section>
+                <div class="carousel" aria-labelledby="carousel-heading">
+                    <div class="carousel__container" role="region" aria-live="polite">
+                        <div class="carousel__item">
+                            <img src="/assets/images/galerie/discover-1.avif" alt="galerie" />
+                        </div>
+                        <div class="carousel__item">
+                            <img src="/assets/images/galerie/discover-2.avif" alt="galerie" />
+                        </div>
+                        <div class="carousel__item">
+                            <img src="/assets/images/galerie/discover-3.avif" alt="galerie" />
+                        </div>
+                    </div>
                     <div class="carousel__controls">
-                        <button class="carousel__button carousel__button--prev" aria-label="Diapo précédente">
-                            <img src="/assets/icones/bouton/fleche-gauche.svg" alt="" loading="lazy" />
+                        <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+                            <img src="/assets/icones/bouton/fleche-gauche.svg" alt="fleche gauche" />
                         </button>
-                        <button class="carousel__button carousel__button--next" aria-label="Diapo suivante">
-                            <img src="/assets/icones/bouton/fleche-droite.svg" alt="" loading="lazy" />
+                        <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+                            <img src="/assets/icones/bouton/fleche-droite.svg" alt="fleche droite" />
                         </button>
                     </div>
-                    <div class="carousel__track" id="track">
-                        <article class="carousel__slide card-scene">
-                            <img src="/assets/images/galerie/discover-1.avif" alt="">
-                        </article>
-                        <article class="carousel__slide card-scene">
-                            <img src="/assets/images/galerie/discover-2.avif" alt="">
-                        </article>
-                        <article class="carousel__slide card-scene">
-                            <img src="/assets/images/galerie/discover-3.avif" alt="">
-                        </article>
-                    </div>
+                    <h2 class="h2">galerie</h2>
                 </div>
-                <footer>
-                    <h2 class="h2">Galerie</h2>
-                </footer>
             </section>
+            
         </main>
         <footer class="footer">
             <nav class="footer__nav">
