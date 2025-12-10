@@ -1,0 +1,54 @@
+.hero {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url("/assets/images/acceuil-header.avif");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    overflow: visible;
+    margin-bottom: 120px;
+}
+
+.hero__list {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin: 0.5rem 0 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    white-space: nowrap;
+}
+
+.hero__item {
+    display: inline-block;
+    font-family: var(--font-sans-sc);
+    font-size: var(--text-2xl);
+    color: var(--darkBlue);
+    text-align: center;
+    padding: 0rem 0.1rem;
+}
+
+
+.date {
+    position: absolute;
+    top: calc(100% + 5.5rem);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    z-index: 5;
+    font-family: var(--font-sans-sc);
+    font-size: var(--text-5xl);
+    font-weight: normal;
+    color: var(--darkBlue);
+    line-height: 1;
+    pointer-events: none;
+}
