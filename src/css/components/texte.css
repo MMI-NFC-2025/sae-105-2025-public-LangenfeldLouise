@@ -1,12 +1,13 @@
 .h1 {
-    margin-top: 10px;
     margin-left: 10px;
 }
 
 .h2 {
     margin-top: 10px;
     margin-left: 10px;
-
+    font-size: var(--text-2xl);
+    font-weight:200;
+    letter-spacing: 0.03rem;
 }
 
 .txt {
