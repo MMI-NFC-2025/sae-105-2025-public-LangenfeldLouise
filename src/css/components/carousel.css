@@ -2,9 +2,7 @@
     position: relative;
     width: 100%;
     background-color: var(--violetBlue);
-    /* couleur du fond */
     padding: 2rem 0;
-    /* espace au-dessus/en-dessous */
     box-sizing: border-box;
 }
 
