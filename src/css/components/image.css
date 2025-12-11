@@ -54,5 +54,10 @@
     /* reset default margins — grid places them to the right */
 }
 
-/* Make the link container take remaining space so text sits to the right */
-/* .artiste__link width handled by grid layout above */
+/* Center image used in programme */
+.img__programme,
+img.img__programme {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
