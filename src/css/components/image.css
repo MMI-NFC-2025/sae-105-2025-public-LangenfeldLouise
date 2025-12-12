@@ -61,3 +61,14 @@ img.img__programme {
     margin-left: auto;
     margin-right: auto;
 }
+
+.erreur__link {
+    width: 100px;
+        height: 100px;
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
