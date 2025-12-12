@@ -1,0 +1,124 @@
+/* Mobile Menu */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--darkBlue);
+    z-index: 100;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    overflow-y: auto;
+}
+
+.menu-btn__bar {
+    background: var(--darkBlue);
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    border-radius: 2px;
+    left: 0;
+    z-index: 10;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu-btn__bar--top {
+    bottom: 8px;
+}
+
+.menu-btn__bar--bottom {
+    top: 8px;
+}
+
+.mobile-menu.active {
+    transform: translateX(0)
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 20px;
+    border-bottom: none
+}
+
+.menu-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--light);
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    background: var(--darkBlue);
+}
+
+.menu-logo img {
+    height: 32px;
+    width: auto
+}
+
+.menu-close {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    background: transparent;
+    border: 0;
+    padding: 8px;
+    color: var(--light);
+    cursor: pointer;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.menu-close img {
+    width: 28px;
+    height: 28px
+}
+
+.menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: var(--darkBlue);
+}
+
+.menu-list li {
+    border-bottom: none
+}
+
+.menu-list a {
+    display: block;
+    padding: 32px 20px;
+    color: var(--light);
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 600;
+    background: var(--darkBlue);
+}
+
+.menu-list a:hover {
+    background: rgba(255, 255, 255, 0.05)
+}
+
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease
+}
+
+.menu-overlay.active {
+    opacity: 1;
+    pointer-events: auto
+}

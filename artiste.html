@@ -1,117 +1,111 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Jumelages</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-            rel="stylesheet">
-        <link rel="icones" type="image/png" href="/assets/icones/favicon/favicon-96x96.png" sizes="96*96" />
-        <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
-        <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
-        <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+    <title>Jumelages</title>
 
-        <link rel="stylesheet" href="/src/css/style.css" />
-        <script type="module" src="/src/js/script.js"></script>
-    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icones" type="image/png" href="/assets/icones/favicon/favicon-96x96.png" sizes="96*96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
 
-    <body>
-        <header class="header">
-            <a class="header__link" href="/">
-                <img class="header__logo" src="/assets/icones/vache/vache-fonce.svg" alt="Logo Jumelages">
-            </a>
-            <button
-            class="header__menu-btn menu-btn"
-            aria-label="menu"
-            aria-expanded="false"
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__link" href="/">
+            <img class="header__logo" src="/assets/icones/vache/vache-fonce.svg" alt="Logo Jumelages">
+        </a>
+        <button class="header__menu-btn menu-btn" id="menuToggle" aria-label="menu" aria-expanded="false"
             aria-controls="mainNav">
-            <span
-            class="menu-btn__bar menu-btn__bar--light menu-btn__bar--top"
-            aria-hidden="true"></span>
-            <span
-            class="menu-btn__bar menu-btn__bar--light menu-btn__bar--bottom"
-            aria-hidden="true"></span>>
-            </button>
-            <nav class="header__menu menu" id="mainNav" hidden>
-                <ul class="menu__list u-list-unstyled">
-                    <li class="menu__item">
-                        <a class="menu__link" href="/programme.html">Programme</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="/artiste.html">Invité</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="/infosPratiques.html">Infos Pratique</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="/scene.html">Scènes</a>
-                    </li>
-                </ul>
-                <img class="menu__img" src="/assets/icones/vache/vache-claire.svg" alt="" />
-            </nav>
-        </header>
-        <main>
-            <ul class="artiste__list u-list-unstyled">
-                <li class="artiste__item">
-                    <a class="artiste__link" href="/templateArtiste.html">
-                        <img src="/assets/images/petite/discover-petite.avif" alt="Photo de profil du groupe Dis'cover">
-                        <li class="h2__title">dis'corver</li>
-                        <li class="h2__title">29-30 août 19h</li>
-                        <li class="h2__title">kiosque, pavillon</li></a>
-                    
+            <span class="menu-btn__bar menu-btn__bar--light menu-btn__bar--top" aria-hidden="true"></span>
+            <span class="menu-btn__bar menu-btn__bar--light menu-btn__bar--bottom" aria-hidden="true"></span>
+        </button>
+    </header>
+    <nav class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <div class="menu-header">
+            <button class="menu-close" id="menuClose" aria-label="Fermer le menu"><img
+                    src="/assets/icones/menu/menu-croix.svg" alt="fermer"></button>
+        </div>
+        <ul class="menu-list">
+            <li><a href="programme.html">Programmes</a></li>
+            <li><a href="artiste.html">Invités</a></li>
+            <li><a href="scene.html">Scènes</a></li>
+            <li><a href="infosPratiques.html">Infos Pratique</a></li>
+        </ul>
+        <a class="footer__img : tete de vache" href="index.html">
+            <img src="/assets/icones/vache/vache-claire.svg" alt="">
+        </a>
+    </nav>
+    <main>
+        <ul class="artiste__list u-list-unstyled">
+            <li class="artiste__item">
+                <a class="artiste__link" href="/templateArtiste.html">
+                    <img src="/assets/images/petite/discover-petite.avif" alt="Photo de profil du groupe Dis'cover">
+            <li class="h2__title">dis'corver</li>
+            <li class="h2__title">29-30 août 19h</li>
+            <li class="h2__title">kiosque, pavillon</li></a>
+
+            </li>
+            <li class="artiste__item">
+
+                <a class="artiste__link">
+                    <img src="/assets/images/petite/city-zen-kane-petite.avif"
+                        alt="Photo de profil du groupe City Zen Kane">
+            <li class="h1">city zen kane</li>
+            <li class="h1">29-30 août 20h</li>
+            <li class="h1">kiosque, pavillon</li></a>
+            </a>
+            </li>
+            <li class="artiste__item">
+
+                <a class="artiste__link">
+                    <img src="/assets/images/petite/laura-joan-petite.avif"
+                        alt="Photo de profil de l'artiste Laura Joan">
+            <li class="h1">laura joan</li>
+            <li class="h1">29-30 août 21h</li>
+            <li class="h1">kiosque, pavillon</li></a>
+            </a>
+            </li>
+        </ul>
+    </main>
+    <footer class="footer">
+        <nav class="footer__nav">
+            <ul class="u-list-unstyled footer__list">
+                <li class="footer__item">Jumelages@gmail.com</li>
+                <li class="footer__item">01 72 68 23 96</li>
+                <li class="footer__item">25 200 Montbéliard</li>
+            </ul>
+            <ul class="u-list-unstyled footer__list">
+                <li class="footer__item">
+                    <img src="/assets/icones/reseaux/facebook.svg" alt="logo facebook">
+                    <a class="footer__list__icon" href="https://facebook.com">Facebook</a>
                 </li>
-                <li class="artiste__item">
-                    
-                    <a class="artiste__link" href="/templateArtiste.html">
-                        <img src="/assets/images/petite/city-zen-kane-petite.avif" alt="Photo de profil du groupe City Zen Kane">
-                        <li class="h1">city zen kane</li>
-                        <li class="h1">29-30 août 20h</li>
-                        <li class="h1">kiosque, pavillon</li></a>
-                    </a>
+                <li class="footer__item">
+                    <img src="/assets/icones/reseaux/instagram.svg" alt="logo instagram">
+                    <a class="footer__list__icon" href="https://instagram.com">Instagram</a>
                 </li>
-                <li class="artiste__item">
-                    
-                    <a class="artiste__link" href="/templateArtiste.html">
-                        <img src="/assets/images/petite/laura-joan-petite.avif" alt="Photo de profil de l'artiste Laura Joan">
-                        <li class="h1">laura joan</li>
-                        <li class="h1">29-30 août 21h</li>
-                        <li class="h1">kiosque, pavillon</li></a>
-                    </a>
+                <li class="footer__item">
+                    <img src="/assets/icones/reseaux/tik-tok.svg" alt="logo tiktok">
+                    <a class="footer__list__icon" href="https://tiktok.com">Tiktok</a>
                 </li>
             </ul>
-        </main>
-        <footer class="footer">
-            <nav class="footer__nav">
-                <ul class="u-list-unstyled footer__list">
-                    <li class="footer__item">Jumelages@gmail.com</li>
-                    <li class="footer__item">01 72 68 23 96</li>
-                    <li class="footer__item">25 200 Montbéliard</li>
-                </ul>
-                <ul class="u-list-unstyled footer__list">
-                    <li class="footer__item">
-                        <img src="/assets/icones/reseaux/facebook.svg" alt="logo facebook">
-                        <a class="footer__list__icon" href="https://facebook.com">Facebook</a>
-                    </li>
-                    <li class="footer__item">
-                        <img src="/assets/icones/reseaux/instagram.svg" alt="logo instagram">
-                        <a class="footer__list__icon" href="https://instagram.com">Instagram</a>
-                    </li>
-                    <li class="footer__item">
-                        <img src="/assets/icones/reseaux/tik-tok.svg" alt="logo tiktok">
-                        <a class="footer__list__icon" href="https://tiktok.com">Tiktok</a>
-                    </li>
-                </ul>
-                </nav>
-                <a class="footer__img : tete de vache">
-                    <img src="/assets/icones/vache/vache-claire.svg" alt="">
-                </a>
-            </footer>
-    </body>
+        </nav>
+        <a class="footer__img : tete de vache">
+            <img src="/assets/icones/vache/vache-claire.svg" alt="">
+        </a>
+    </footer>
+</body>
 
 </html>
