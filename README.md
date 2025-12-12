@@ -6,7 +6,7 @@
 - NOM : LANGENFELD
 - PRÉNOM : louise
 - GROUPE : A2
-- URL du site : [https://jumelages.netlify.app/](https://jumelages.netlify.app/)
+- URL du site : jumelages.louiselangenfeld.fr
 - URL FIGMA : [https://www.figma.com/design/NuK4inucrVIkcjm8u5IN51/SAE106?node-id=1-2&t=itSe3aO5V978RMQp-1](https://www.figma.com/design/NuK4inucrVIkcjm8u5IN51/SAE106?node-id=1-2&t=itSe3aO5V978RMQp-1)
 
 ## Sujet
